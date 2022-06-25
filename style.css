@@ -4,12 +4,16 @@ html {
 body {
   margin-top: 30px;
   margin-bottom: 120px;
+  font-family: "Poppins", sans-serif;
 }
 
 h1 {
   margin-bottom: 0;
 }
 
+.about h3 {
+  color: #517ccb;
+}
 a:hover {
   text-decoration: none;
 }
@@ -36,7 +40,7 @@ a:active {
 
 .jumbotron {
   background-image: url(img/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg);
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-position: 18px -47px;
 
@@ -72,12 +76,45 @@ section {
 
 .pKanan {
   transform: translate(50px, 0);
+  margin: auto;
+}
+
+.about p {
+  font-size: 16px;
 }
 
 .pKiri.pMuncul,
 .pKanan.pMuncul {
   opacity: 1;
   transform: translate(0, 0);
+}
+.gambar-zaki {
+  width: 350px;
+  height: 450px;
+  background: rgb(35 48 66);
+  border-radius: 15px;
+  margin-left: 55px;
+  margin-right: 0;
+}
+.socials-media {
+  list-style: none;
+  display: flex;
+
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.col-sm-5 ul {
+  padding-inline-start: 0%;
+}
+
+.socials-media li {
+  margin-top: 30px;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+.socials-media a i {
+  font-size: 4rem;
+  transition: color 0.4s ease;
 }
 
 .portfolio {
@@ -117,7 +154,6 @@ footer {
   background: #111;
   height: auto;
   width: 100%;
-  font-family: "Open Sans";
   padding-top: 30px;
   color: #fff;
   background: #233042;
